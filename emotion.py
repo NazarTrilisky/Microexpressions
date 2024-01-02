@@ -4,7 +4,7 @@ from deepface import DeepFace
 from image import label_image
 
 
-file_path = '/Microexpressions/faces/multi_face.jpg'
+file_path = '/Microexpressions/Microexpressions/faces/multi_face.jpg'
 
 
 emotion_list = DeepFace.analyze(

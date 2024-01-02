@@ -21,6 +21,7 @@ def label_image(file_path, emotion_list):
         edit_image.rectangle(coord, outline='red', fill=None, width=10)
         edit_image.text((coord[0], coord[1]), emotion_str, font=font, fill="#FF0000")
 
+    print("Saving output to: {}".format(output_path))
     main_image.save(output_path)
 
 
